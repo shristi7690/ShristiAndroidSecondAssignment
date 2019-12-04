@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/btnSum"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Sum"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/btnAreaOfCircle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Area of Circle"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/btnReverseNumber"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Reverse a number"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/btnPalindrome"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Palindrome"
+            android:textSize="10dp"/>
+
+        <Button
+            android:id="@+id/btnAutomorphic"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Automorphic"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/btnReverseString"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="Reverse a string"
+            android:textSize="15dp"/>
+    </GridLayout>
+
+    <LinearLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+</LinearLayout>
